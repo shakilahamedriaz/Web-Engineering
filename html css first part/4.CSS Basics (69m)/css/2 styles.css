@@ -1,0 +1,13 @@
+body{
+    margin: 10px;
+}
+p{
+    color:pink;
+}
+
+/*for 6 no.*/
+p.ok {
+    font-size: 140%;
+    font font-style: italic;
+
+}

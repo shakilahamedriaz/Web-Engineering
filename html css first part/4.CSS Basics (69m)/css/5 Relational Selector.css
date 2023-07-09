@@ -1,0 +1,8 @@
+body{
+    font-size: larger;
+}
+
+#products + p {    /* 1) use ">" sign to do operation for oneline. 2) use + before p that mean the opetation work for 3rd line with skip of 1st two line.  3) use ~ for all <p> operation*/ 
+
+    color: orange;
+}

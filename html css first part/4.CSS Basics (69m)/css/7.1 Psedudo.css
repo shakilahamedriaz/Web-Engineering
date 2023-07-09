@@ -1,0 +1,24 @@
+body{
+    margin: 10px;
+}
+p::first-letter{                     /*for bold/large first letter of paragraph*/
+    font-size: 190%;
+    font-weight: bold;
+    color: yellowgreen;
+}
+p::first-line{
+    font-weight: bold;  
+    color: blue;            /*for bold first/2nd line*/
+}
+::selection{
+    background-color: pink;     /*for selection BG color*/
+}
+p::before{                        /*for before content (....ABcde)*/
+    content: "...";
+}
+
+p::after{
+    content: "....";    
+    display: block;           /*for after content (ABcde...)*/
+                              /*use block; for (...) and in a new line*/
+}

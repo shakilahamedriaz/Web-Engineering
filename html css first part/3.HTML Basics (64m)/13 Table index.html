@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,td,th{
+          border: 1px solid rgb(255, 0, 85);
+          border-collapse: collapse;
+          padding: 5px;
+      }
+
+      tfoot{
+
+        text-align:left ;
+      }
+      <!-- lets see a principle of swe ,DRY = dont repeat yourself cz css er jonne alada vabe table alada vabe td er jonne eki style korar dorkar nai direct comma use kre sob ek sathe kora jabe -->
+    </style>
+  </head>
+  <body> 
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expences</th>
+        </tr>
+        <tr>
+          <th>Catagory</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketting</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>$300</th>
+        </tr>
+    </tfoot>
+      <!-- We use thead and tbody to  build a meeanigful code that easy to undrestand the process called symmenntric html-->
+    </table>
+  </body>
+</html>

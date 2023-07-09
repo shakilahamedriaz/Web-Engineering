@@ -1,0 +1,16 @@
+body{
+    margin: 10px;
+}
+
+
+.product {
+    background-color: #80e310;
+    text-color: black;
+   
+}
+
+a[href*="https://google.com"]            /* process of work with link   */
+{
+    color: blue;
+    
+}

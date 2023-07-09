@@ -1,0 +1,31 @@
+body{
+    margin: 20px;
+}
+
+article p:first-of-type{
+    font-size: 140%;
+    font-style: italic;
+    color: purple;
+}
+
+article P:last-of-type{
+    font-weight: bold;
+    font-style: normal;
+    color: darkgreen;
+}
+
+article :last-of-type{       /*---------------------for link bold*/
+    font-weight: bold;
+    font-size: medium;
+
+}
+ul li:nth-child(2n){         /*---------------------odd, even,3n,2n etc.. */
+    color:deeppink;
+
+}
+a:visited{
+    color: forestgreen;
+}
+a:hover, a:focus{
+    color: red;
+}

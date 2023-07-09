@@ -1,0 +1,23 @@
+
+table{
+    border : #c4dcf3;
+    padding: 5px;
+}
+
+
+thead,tfoot {
+
+   
+    background-color: #427fef;
+    color: white;
+    text-align: center;
+    
+}
+tfoot {
+    text-align: center;
+    
+}
+ tbody tr:nth-child(odd){
+
+    background-color: #eef7ff ;
+}

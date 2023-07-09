@@ -1,0 +1,14 @@
+h1{
+    color: dodgerblue !important;
+}
+.highlight{
+    color: deeppink;
+}
+#Products {
+     color: green;
+
+}
+
+.highlight#Products{
+    color: yellow;
+}
