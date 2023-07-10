@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+}
+
+p::first-letter{
+    color: rgb(245, 53, 181);
+   font-size: 140%;
+   font-weight: bold;
+}
+
+p::first-line{
+    color: aqua;
+    font-weight: bold;
+}
+
+::selection{
+    background-color: pink;
+}
+
+p::before{
+    content: "...";
+    color: red;
+}
+
+p::after{
+    content: ">>..";
+    display: block;
+}
