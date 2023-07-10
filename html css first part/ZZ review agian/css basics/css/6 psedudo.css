@@ -1,0 +1,33 @@
+body{
+    margin: 10px;
+}
+
+article p:first-of-type{
+    font-size: 150%;
+    font-style: italic;
+    color: red;
+}
+
+article p:last-of-type{
+      font-weight: bold;
+      font-style: normal;
+      color:green;
+}
+article ul:last-of-type{
+    font-size: large;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+ul li:nth-child(2n){
+       color:deeppink
+}
+
+a:visited{
+    color: forestgreen;
+}
+
+a:hover, a:focus {
+      color: red;
+}
