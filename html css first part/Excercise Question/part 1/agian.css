@@ -1,20 +1,22 @@
-
 table{
     border : #c4dcf3;
-    padding: 5px;
+    padding: 10px;
+    border: 1px;
+    border-color: black;
 }
 
-thead,tfoot {
+thead,tfoot{
     background-color: #427fef;
     color: white;
     text-align: center;
     
 }
-tfoot {
+tfoot{
+
     text-align: center;
-    
 }
- tbody tr:nth-child(odd){
+
+tbody tr:nth-child(odd){
 
     background-color: #eef7ff ;
 }
