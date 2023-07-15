@@ -1,0 +1,9 @@
+
+.meal:hover{
+    
+    filter: grayscale(80%) blur(3px);
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+--> go filter css// take any of them which nedded
+*/
